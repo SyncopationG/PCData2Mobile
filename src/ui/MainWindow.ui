@@ -101,7 +101,7 @@
     <item row="7" column="1">
      <widget class="QPushButton" name="pushButtonSendData">
       <property name="text">
-       <string>生成数据并传输到手机</string>
+       <string>生成数据并通过蓝牙传输到手机软件</string>
       </property>
      </widget>
     </item>
