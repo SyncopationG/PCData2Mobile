@@ -111,6 +111,7 @@ class Main(QMainWindow, Ui_MainWindow):
     def on_clicked_connect_bluetooth(self):
         addr = self.para[Name.bluetooth][Name.addr]
         self.sock.connect((addr, 1))
+        self.message_status_bar("连接完成！")
 
     def on_clicked_send_data(self):
         if self.message_waning_data():
@@ -123,3 +124,4 @@ class Main(QMainWindow, Ui_MainWindow):
         self.message_status_bar("数据已生成！")
         self.sock.send(self.para[Name.data])
         self.sock.close()
+        self.message_status_bar("数据发送成功！")
