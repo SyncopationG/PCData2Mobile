@@ -123,5 +123,5 @@ class Main(QMainWindow, Ui_MainWindow):
             print(self.para)
         self.message_status_bar("数据已生成！")
         self.sock.send(self.para[Name.data])
-        self.sock.close()
         self.message_status_bar("数据发送成功！")
+        self.sock.close()
