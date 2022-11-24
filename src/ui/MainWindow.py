@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         self.lineEditMinValue.setText(_translate("MainWindow", "1"))
         self.label_3.setText(_translate("MainWindow", "最大值"))
         self.lineEditMaxValue.setText(_translate("MainWindow", "100"))
-        self.pushButtonSendData.setText(_translate("MainWindow", "生成随机数并传输到手机APP"))
+        self.pushButtonSendData.setText(_translate("MainWindow", "生成数据并传输到手机"))
         self.pushButtonSearchBluetooth.setText(_translate("MainWindow", "搜索蓝牙"))
         self.actionJSP.setText(_translate("MainWindow", "静态作业车间"))
         self.actionJSP.setToolTip(_translate("MainWindow", "静态作业车间"))
